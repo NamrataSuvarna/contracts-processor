@@ -26,7 +26,7 @@ public class ContractsProcessor {
 
 	public static void main(String[] args) throws IOException {
 		System.out.println(computeFinalPriceShares(Utility
-				.getContracts("fileName", "cutOffDate"))); //TODO Update values
+				.getContracts("src\\main\\resources\\contracts", "2020-03-31")));
 	}
 
 }
